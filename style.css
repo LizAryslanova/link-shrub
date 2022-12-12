@@ -1,0 +1,178 @@
+body {
+    background-color: #f4f3ee;
+    color: #303;
+
+    min-width: 960px;
+    margin: 0 auto;
+
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+
+    text-align: center;
+
+}
+
+
+
+.link-box {
+
+    box-sizing: border-box;
+    display: inline-block;
+
+    margin: 10px;
+
+
+    text-align: center;
+
+
+
+    border: solid 2px #463F3A;
+    border-radius: 10px;
+
+    height: 70px;
+    width: 800px;
+
+    box-shadow: -5px 5px 5px 0 lightgray;
+
+}
+
+
+
+
+/* ============================================================= */
+
+/* Background Images */
+
+
+
+.github {
+
+    background-color: green;
+    color: blue;
+
+}
+
+.twitter {
+    background-image: url('images/pineapple.png');
+
+
+    background-size: 60px;
+
+}
+
+.instagram {
+    background-image: url("images/pineapple.png");
+    background-position: left;
+    background-size: 60px;
+
+}
+
+.medium {
+
+
+    background-image: url(images/pineapple.png);
+    background-position: left;
+    background-size: 60px;
+
+}
+
+.px {
+    background-image: url(images/pineapple.png);
+    background-position: left;
+    background-size: 60px;
+
+}
+
+.gmail {
+    background-image: url(images/pineapple.png);
+    background-position: left;
+    background-size: 60px;
+
+}
+
+.youtube {
+    background-image: url(images/pineapple.png);
+    background-position: left;
+    background-size: 60px;
+
+}
+
+
+
+
+
+
+/* End of background images */
+
+/* ============================================================= */
+
+
+
+
+/* ============================================================= */
+
+/* Stylink links */
+
+a {
+    display: inline-block;
+}
+
+
+a:link {
+
+    color: #94849B;
+    text-decoration: none;
+
+}
+
+a:visited {
+
+    color: #94849B;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: #7E9181;
+    text-decoration: none;
+
+
+}
+
+a:active {
+
+    color: #7E9181;
+    text-decoration: none;
+
+    position: relative;
+    top: 1px;
+
+}
+
+
+/* End of:  Stylink links */
+
+/* ============================================================= */
+
+
+
+
+
+
+footer {
+    background-color: #463f3a;
+    color: #8A817C;
+
+    margin-top: auto;
+
+    padding: 20px 0 30px;
+    vertical-align: middle;
+
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+    text-align: center;
+
+    clear:  both;
+}
