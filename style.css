@@ -2,8 +2,7 @@ body {
     background-color: #f4f3ee;
     color: #303;
 
-    min-width: 960px;
-    margin: 0 auto;
+
 
     font-size: 24px;
     font-family: Helvetica, sans-serif;
@@ -13,17 +12,35 @@ body {
 
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+
 
 
 .link-box {
 
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
 
-    margin: 10px;
+    flex: 1;
+
+    margin: 10px auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 
     text-align: center;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 40px;
 
 
 
@@ -31,12 +48,12 @@ body {
     border-radius: 10px;
 
     height: 70px;
-    width: 800px;
+    min-width: 400px;
+    max-width: 800px;
 
     box-shadow: -5px 5px 5px 0 lightgray;
 
 }
-
 
 
 
@@ -46,55 +63,55 @@ body {
 
 
 
-.github {
+#github {
 
-    background-color: green;
-    color: blue;
+    background-image: url(images/pineapple.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
 
 }
 
-.twitter {
+#twitter {
     background-image: url('images/pineapple.png');
-
-
-    background-size: 60px;
+    background-repeat: no-repeat;
+    background-size: 70px;
 
 }
 
-.instagram {
+#instagram {
     background-image: url("images/pineapple.png");
-    background-position: left;
-    background-size: 60px;
+    background-repeat: no-repeat;
+    background-size: 70px;
 
 }
 
-.medium {
+#medium {
 
 
     background-image: url(images/pineapple.png);
-    background-position: left;
-    background-size: 60px;
+    background-repeat: no-repeat;
+    background-size: 70px;
 
 }
 
-.px {
+#px {
     background-image: url(images/pineapple.png);
-    background-position: left;
-    background-size: 60px;
+    background-repeat: no-repeat;
+    background-size: 70px;
 
 }
 
-.gmail {
+#gmail {
     background-image: url(images/pineapple.png);
-    background-position: left;
-    background-size: 60px;
+    background-repeat: no-repeat;
+    background-size: 70px;
 
 }
 
-.youtube {
+#youtube {
     background-image: url(images/pineapple.png);
-    background-position: left;
-    background-size: 60px;
+    background-repeat: no-repeat;
+    background-size: 70px;
 
 }
 
@@ -124,6 +141,7 @@ a:link {
     color: #94849B;
     text-decoration: none;
 
+
 }
 
 a:visited {
@@ -134,16 +152,22 @@ a:visited {
 
 a:hover {
 
-    color: #7E9181;
+    color: #E0AFA0;
     text-decoration: none;
+    font-weight: bold;
+
+    border: solid 3px #E0AFA0;
 
 
 }
 
 a:active {
 
-    color: #7E9181;
+    color: #E0AFA0;
     text-decoration: none;
+    font-weight: bold;
+
+    border: solid 3px #E0AFA0;
 
     position: relative;
     top: 1px;
