@@ -1,7 +1,7 @@
 body {
-    background-color: #f4f3ee;
-    color: #303;
 
+    background: linear-gradient(#144552, #272640);
+    color: #303;
 
 
     font-size: 24px;
@@ -16,8 +16,32 @@ h1 {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
+
+    color: #ffeef2;
+    font-size: 28px;
+
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
+
+h2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+
+    color: #edd3c4;
+
+    font-weight: 200;
+    font-size: 20px;
+
+    padding-top: 0;
+    margin-top: 0;
+
+
+    margin-bottom: 50px;
+}
 
 
 
@@ -29,30 +53,41 @@ h1 {
     flex-flow: column wrap;
     align-items: center;
 
+    background-color: #292929;
+
     flex: 1;
 
     margin: 10px auto;
 
     margin-top: 20px;
-    margin-bottom: 20px;
-
+    margin-bottom: 25px;
 
     text-align: center;
-    padding: 20px;
+    font-size: 20px;
+    padding: 0px;
     padding-left: 80px;
     padding-right: 40px;
 
-
-
-    border: solid 2px #463F3A;
+    border: solid 1px #292929;
     border-radius: 10px;
 
-    height: 70px;
+    height: 60px;
     min-width: 400px;
-    max-width: 800px;
+    max-width: 700px;
 
-    box-shadow: -5px 5px 5px 0 lightgray;
+    box-shadow: -4px 4px 4px 0 #1F1F1F;
 
+}
+
+#photo {
+
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:50%;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 
@@ -62,27 +97,26 @@ h1 {
 /* Background Images */
 
 
-
 #github {
-
-    background-image: url(images/pineapple.png);
+    background-image: url('images/github.png');
     background-repeat: no-repeat;
-    background-size: 70px;
-
+    background-size: 40px;
+    background-position: left center;
 }
 
-#twitter {
-    background-image: url('images/pineapple.png');
-    background-repeat: no-repeat;
-    background-size: 70px;
 
+#twitter {
+    background-image: url('images/twitter.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left center;
 }
 
 #instagram {
-    background-image: url("images/pineapple.png");
+    background-image: url("images/insta.png");
     background-repeat: no-repeat;
-    background-size: 70px;
-
+    background-size: 40px;
+    background-position: left center;
 }
 
 #medium {
@@ -90,39 +124,30 @@ h1 {
 
     background-image: url(images/pineapple.png);
     background-repeat: no-repeat;
-    background-size: 70px;
-
+    background-size: 40px;
+    background-position: left center;
 }
 
 #px {
     background-image: url(images/pineapple.png);
     background-repeat: no-repeat;
-    background-size: 70px;
-
+    background-size: 40px;
+    background-position: left center;
 }
 
 #gmail {
-    background-image: url(images/pineapple.png);
+    background-image: url(images/gmail.png);
     background-repeat: no-repeat;
-    background-size: 70px;
-
+    background-size: 40px;
+    background-position: left center;
 }
 
 #youtube {
-    background-image: url(images/pineapple.png);
+    background-image: url(images/youtube.png);
     background-repeat: no-repeat;
-    background-size: 70px;
-
+    background-size: 40px;
+    background-position: left center;
 }
-
-
-
-
-
-
-/* End of background images */
-
-/* ============================================================= */
 
 
 
@@ -138,40 +163,37 @@ a {
 
 a:link {
 
-    color: #94849B;
+    color: #FFEEF2;
     text-decoration: none;
-
-
 }
 
 a:visited {
 
-    color: #94849B;
+    color: #FFEEF2;
     text-decoration: none;
 }
 
 a:hover {
 
-    color: #E0AFA0;
+    color: #FFEEF2;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 200px;
 
-    border: solid 3px #E0AFA0;
-
-
+    border: solid 2px #292929;
+    box-shadow: -6px 6px 6px 0 #1F1F1F;
 }
 
 a:active {
 
-    color: #E0AFA0;
+    color: #FFEEF2;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 200px;
 
-    border: solid 3px #E0AFA0;
+    border: solid 2px #292929;
+    box-shadow: -6px 6px 6px 0 #1F1F1F;
 
     position: relative;
     top: 1px;
-
 }
 
 
@@ -185,7 +207,7 @@ a:active {
 
 
 footer {
-    background-color: #463f3a;
+
     color: #8A817C;
 
     margin-top: auto;
