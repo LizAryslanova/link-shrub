@@ -8,9 +8,6 @@ body {
     color: black;
 
     text-align: center;
-}
-
-.container  {
 
     display:grid;
     grid-template-rows: auto 1fr auto;
@@ -26,7 +23,7 @@ h1 {
     color: #ffeef2;
     font-size: 1.7em;
 
-    padding-bottom: 10px;
+    padding-bottom: 0.5em;
     padding-top: 0;
     margin-bottom: 0;
 }
@@ -46,7 +43,7 @@ h2 {
     margin-top: 0;
 
 
-    margin-bottom: 50px;
+    margin-bottom: 2em;
 }
 
 
@@ -62,10 +59,10 @@ h2 {
 
     flex: 1;
 
-    margin: 10px auto;
+    margin: 0.4em auto;
 
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 0.9em;
+    margin-bottom: 1em;
 
     text-align: center;
     font-size: 1.2em;
@@ -75,11 +72,11 @@ h2 {
 
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 80px;
-    padding-right: 40px;
+    padding-left: 3.4em;
+    padding-right: 1.8em;
 
     border: solid 1px #292929;
-    border-radius: 10px;
+    border-radius: 0.4em;
 
     height: 2.2em;
     min-width: 15em;
@@ -93,12 +90,6 @@ h2 {
 
 
 #photo {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
 
     width:10em;
     height:10em;
@@ -121,23 +112,23 @@ h2 {
 #github {
     background-image: url('images/github.png');
     background-repeat: no-repeat;
-    background-size: 40px;
-    background-position: 10px center;
+    background-size: 1.7em;
+    background-position: 0.4em center;
 }
 
 
 #twitter {
     background-image: url('images/twitter.png');
     background-repeat: no-repeat;
-    background-size: 40px;
-    background-position: 10px center;
+    background-size: 1.7em;
+    background-position: 0.4em center;
 }
 
 #instagram {
     background-image: url("images/insta.png");
     background-repeat: no-repeat;
-    background-size: 40px;
-    background-position: 10px center;
+    background-size: 1.7em;
+    background-position: 0.4em center;
 }
 
 #medium {
@@ -145,29 +136,29 @@ h2 {
 
     background-image: url(images/medium.png);
     background-repeat: no-repeat;
-    background-size: 40px;
-    background-position: 10px center;
+    background-size: 1.7em;
+    background-position: 0.4em center;
 }
 
 #px {
     background-image: url(images/px.png);
     background-repeat: no-repeat;
-    background-size: 40px;
-    background-position: 10px center;
+    background-size: 1.7em;
+    background-position: 0.4em center;
 }
 
 #gmail {
     background-image: url(images/gmail.png);
     background-repeat: no-repeat;
-    background-size: 40px;
-    background-position: 10px center;
+    background-size: 1.7em;
+    background-position: 0.4em center;
 }
 
 #youtube {
     background-image: url(images/youtube.png);
     background-repeat: no-repeat;
-    background-size: 40px;
-    background-position: 10px center;
+    background-size: 1.7em;
+    background-position: 0.4em center;
 }
 
 
@@ -198,7 +189,7 @@ a:hover {
 
     color: #FFEEF2;
     text-decoration: none;
-    font-weight: 200px;
+    font-weight: 400;
 
     border: solid 2px #292929;
     box-shadow: -6px 6px 6px 0 #1F1F1F;
@@ -208,7 +199,7 @@ a:active {
 
     color: #FFEEF2;
     text-decoration: none;
-    font-weight: 200px;
+    font-weight: 400;
 
     border: solid 2px #292929;
     box-shadow: -6px 6px 6px 0 #1F1F1F;
@@ -233,12 +224,14 @@ footer {
 
     margin-top: auto;
 
-    padding: 20px 0 30px;
+    padding: 1em 0 1.5em;
     vertical-align: middle;
+
+    font-weight: lighter;
 
     bottom: 0;
     width: 100%;
-    height: 60px;   /* Height of the footer */
+    height: 2.5em;   /* Height of the footer */
     text-align: center;
 
     clear:  both;
