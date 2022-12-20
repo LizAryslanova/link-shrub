@@ -48,7 +48,7 @@ h2 {
 }
 
 
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width:430pt) {
 .link-box {
     box-sizing: border-box;
     display: flex;
@@ -58,7 +58,7 @@ h2 {
 
   /*  background-color: #2D3238; */
 
-    background-color: yellow;
+    background-color: black;
 
 
     flex: 1;
@@ -85,7 +85,7 @@ h2 {
 }
 }
 
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width:430pt) {
 .link-box {
     box-sizing: border-box;
     display: flex;
@@ -95,7 +95,7 @@ h2 {
 
  /*   background-color: #2D3238; */
 
-    background-color: palegreen;
+    background-color: white;
 
 
 
