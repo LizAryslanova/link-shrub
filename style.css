@@ -48,7 +48,7 @@ h2 {
 }
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1500px) {
 .link-box {
     box-sizing: border-box;
     display: flex;
@@ -85,7 +85,7 @@ h2 {
 }
 }
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:1500px) {
 .link-box {
     box-sizing: border-box;
     display: flex;
@@ -95,7 +95,7 @@ h2 {
 
  /*   background-color: #2D3238; */
 
-    background-color: red;
+    background-color: palegreen;
 
 
 
@@ -107,7 +107,7 @@ h2 {
     margin-bottom: 25px;
 
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     padding: 0px;
     padding-left: 80px;
     padding-right: 40px;
@@ -115,7 +115,7 @@ h2 {
     border: solid 1px #292929;
     border-radius: 10px;
 
-    height: 80px;
+    height: 70px;
     min-width: 400px;
     max-width: 700px;
 
