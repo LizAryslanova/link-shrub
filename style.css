@@ -5,7 +5,7 @@ body {
 
 
     font-size: 24px;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, Calibri, sans-serif;
     color: black;
 
     text-align: center;
@@ -20,17 +20,17 @@ body {
 
 }
 
-@media (pointer:coarse) {
-    /* custom css for "touch targets" */
-    body { font-size: 44px; }
+ .container {
+  margin-left: 0 env(safe-area-inset-left);
+  margin-right: 0 env(safe-area-inset-right);
 }
 
-@supports(padding:max(0px)) {
-    body, header, footer {
-        padding-left: min(0vmin, env(safe-area-inset-left));
-        padding-right: min(0vmin, env(safe-area-inset-right));
+@media (pointer:coarse) {
+    /* custom css for "touch targets" */
+    body { font-size: 17px;
     }
 }
+
 
 
 h1 {
@@ -87,11 +87,11 @@ h2 {
     text-align: center;
     font-size: 1.2em;
 
-    font-weight: 100;
+    font-weight: 400;
 
     padding-top: 1.2em;
     padding-bottom: 1.2em;
-    padding-left: 3.4em;
+    padding-left: 3.4em; /*3.4em */
     padding-right: 1.8em;
 
     border: solid 1px #292929;
@@ -104,7 +104,6 @@ h2 {
     box-shadow: -4px 4px 4px 0 #1F1F1F;
 }
  /*} */
-
 
 
 
