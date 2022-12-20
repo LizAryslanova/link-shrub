@@ -9,8 +9,9 @@ body {
 
     text-align: center;
 
-    display:grid;
-    grid-template-rows: auto 1fr auto;
+ /*   display:grid;
+    grid-template-rows: auto 1fr auto; */
+
     min-height: 100vh;
 
     padding-left: 0.4em;
