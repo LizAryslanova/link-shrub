@@ -48,7 +48,7 @@ h2 {
 }
 
 
-@media only screen and (max-width:430pt) {
+@media only screen and (max-width:1000pt) {
 .link-box {
     box-sizing: border-box;
     display: flex;
@@ -85,7 +85,7 @@ h2 {
 }
 }
 
-@media only screen and (min-width:430pt) {
+@media only screen and (min-width:1000pt) {
 .link-box {
     box-sizing: border-box;
     display: flex;
