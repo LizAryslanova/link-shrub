@@ -56,7 +56,10 @@ h2 {
     flex-flow: column wrap;
     align-items: center;
 
-    background-color: #2D3238;
+  /*  background-color: #2D3238; */
+
+    background-color: #yellow;
+
 
     flex: 1;
 
@@ -90,7 +93,11 @@ h2 {
     flex-flow: column wrap;
     align-items: center;
 
-    background-color: #2D3238;
+ /*   background-color: #2D3238; */
+
+    background-color: red;
+
+
 
     flex: 1;
 
