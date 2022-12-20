@@ -1,10 +1,6 @@
 body {
     background: linear-gradient(#1C5F73, #3F3E65);
 
-    padding: env(safe-area-inset);
-
-
-
     color: #303;
 
 
