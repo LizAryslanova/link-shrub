@@ -15,6 +15,11 @@ body {
 
 }
 
+@media (pointer:coarse) {
+    /* custom css for "touch targets" */
+    body { font-size: 44px; }
+}
+
 h1 {
     display: flex;
     justify-content: center;
