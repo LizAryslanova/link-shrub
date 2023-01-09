@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(#1C5F73, #3F3E65);
+
+    background: linear-gradient(#1C5F73, #3F3E65);      /* choose background colour */
 
     font-size: 24px;
     font-family: Helvetica, Calibri, sans-serif;
@@ -19,29 +20,27 @@ body {
 }
 
 @media (pointer:coarse) {
-    /* custom css for "touch targets" */
     body { font-size: 17px;
     }
 }
 
 
-
-
+/* Your Name Styling */
 h1 {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
 
-    color: #ffeef2;
+    color: #ffeef2;              /* choose the colour of Your Name text */
     font-size: 1.7em;
 
     padding-bottom: 0.5em;
     padding-top: 0;
     margin-bottom: 0;
-
 }
 
 
+/* About You section styling  */
 h2 {
     display: flex;
     justify-content: center;
@@ -51,7 +50,7 @@ h2 {
     padding-right: 1em;
     padding-top: 0;
 
-    color: #edd3c4;
+    color: #edd3c4;   /* choose the colour of About You text */
 
     font-weight: 200;
     font-size: 1.2em;
@@ -61,6 +60,7 @@ h2 {
 }
 
 
+/* Subheadings styling */
 h3 {
     display: flex;
     justify-content: center;
@@ -71,7 +71,7 @@ h3 {
 
     margin: 0.4em auto;
 
-    color: #edd3c4;
+    color: #edd3c4;   /* choose the colour of the Subheading text */
 
     font-weight: 400;
     font-size: 1.3em;
@@ -87,6 +87,7 @@ h3 {
 }
 
 
+/* Links styling */
 .link-box {
     box-sizing: border-box;
     display: flex;
@@ -94,7 +95,8 @@ h3 {
     flex-flow: column wrap;
     align-items: center;
 
-    background-color: #2D3238;
+    background-color: #2D3238;  /* choose the background colour of link buttons */
+
 
     flex: 1;
 
@@ -119,11 +121,11 @@ h3 {
     min-width: 15em;
     max-width: 30em;
 
-    box-shadow: -0.25em 0.25em 0.25em 0 #292929;
+    box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1); /* change the last numbre in rgba in the range of 0 to 1 to change transparency of the button shadow */
 }
 
 
-
+/* Your Photo styling */
 #photo {
     width:9.5em;
     height:9.5em;
@@ -140,7 +142,7 @@ h3 {
 
 /* ============================================================= */
 
-/* Background Images */
+/* Icons for links Styling */
 
 
 #github {
@@ -200,10 +202,9 @@ h3 {
     background-position: 0.4em center;
 }
 
-
-
-
 /* ============================================================= */
+
+
 
 /* Stylink links */
 
@@ -213,35 +214,38 @@ a {
 
 
 a:link {
-    color: #FFEEF2;
+    color: #FFEEF2;            /* choose the colour of links */
     text-decoration: none;
 }
 
 a:visited {
-    color: #FFEEF2;
+    color: #FFEEF2;          /* choose the colour of visited links. Preferably match it to the previous colour */
     text-decoration: none;
 }
 
 a:hover {
-    color: #FFEEF2;
+    color: #FFEEF2;          /* choose the colour of links when mouse is hovering over them */
     text-decoration: none;
     font-weight: 400;
 
     letter-spacing: 0.01em;
 
-    border: solid 2px #292929;
-    box-shadow: -0.25em 0.25em 0.25em 0.15em #292929;
+    border: solid 2px #292929;    /* button border on hover */
+    box-shadow: -0.25em 0.25em 0.25em 0.15em rgba(41,41,41,1); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow when mouse os hovering */
 
 
 }
 
 a:active {
-    color: #FFEEF2;
+    color: #FFEEF2;         /* choose the colour of links on click */
     text-decoration: none;
     font-weight: 400;
 
-    border: solid 2px #292929;
-    box-shadow: -0.25em 0.25em 0.25em 0 #292929;
+    border: solid 2px #292929;      /* button border on click */
+    box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow on click*/
+
+
+
 
     position: relative;
     top: 1px;
@@ -254,9 +258,10 @@ a:active {
 
 
 
+/* Footer styling */
 footer {
 
-    color: rgba(237, 211, 196, 0.4);
+    color: rgba(237, 211, 196, 0.2);
 
     margin-top: auto;
 
