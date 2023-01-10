@@ -80,7 +80,7 @@ h3 {
     padding-bottom: 0.4em;
 
     min-width: 7em;
-    max-width: 10em;
+    max-width: 20em;
 
     margin-top: 2em;
     margin-bottom: -0.3em;
@@ -152,8 +152,22 @@ h3 {
     background-position: 0.4em center;
 }
 
+#soundcloud {
+    background-image: url('images/soundcloud.png');
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
 #linkedin {
     background-image: url('images/linkedin.png');
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#facebook {
+    background-image: url('images/facebook.png');
     background-repeat: no-repeat;
     background-size: 1.7em;
     background-position: 0.4em center;
