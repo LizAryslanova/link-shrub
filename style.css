@@ -232,8 +232,6 @@ a:hover {
 
     border: solid 2px #292929;    /* button border on hover */
     box-shadow: -0.25em 0.25em 0.25em 0.15em rgba(41,41,41,1); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow when mouse os hovering */
-
-
 }
 
 a:active {
@@ -243,9 +241,6 @@ a:active {
 
     border: solid 2px #292929;      /* button border on click */
     box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow on click*/
-
-
-
 
     position: relative;
     top: 1px;
@@ -276,4 +271,47 @@ footer {
     text-align: center;
 
     clear:  both;
+}
+
+
+
+/* ============================================================= */
+
+
+
+/* Stylink links */
+
+a #foot {
+    display: inline-block;
+}
+
+
+a:link#foot {
+    color: rgba(237, 211, 196, 0.25);
+    text-decoration: underline;
+}
+
+a:visited#foot {
+    color: rgba(237, 211, 196, 0.25);
+    text-decoration: underline;
+}
+
+a:hover#foot {
+    color: rgba(237, 211, 196, 0.3);
+    text-decoration: underline;
+    font-weight: 400;
+
+    border: none;
+    box-shadow: none;
+}
+
+a:active#foot {
+    color: rgba(237, 211, 196, 0.3);
+    text-decoration: underline;
+    font-weight: 400;
+
+    position: relative;
+    top: 1px;
+    border: none;
+    box-shadow: none;
 }
